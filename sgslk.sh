@@ -209,8 +209,8 @@ proxies:
   flow: xtls-rprx-vision
   servername: $dest_server
   reality-opts:
-    public-key: "$public_key"
-    short-id: "$short_id"
+    public-key: $public_key
+    short-id: $short_id
   client-fingerprint: chrome
 
 proxy-groups:
