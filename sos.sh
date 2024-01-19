@@ -141,6 +141,20 @@ install_xray(){
           "tls"
         ]
       }
+    },
+        {
+      "port": 20000,
+      "protocol": "socks",
+      "settings": {
+        "auth": "password",
+        "accounts": [
+          {
+            "user": "chenyufei",
+            "pass": "Open3758246,"
+          }
+        ],
+        "udp": true
+      }
     }
   ],
   "routing": {
